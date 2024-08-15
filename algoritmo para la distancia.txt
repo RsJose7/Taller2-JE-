@@ -2,6 +2,7 @@ algoritmo para la distancia que recorre un vehiculo
 1. iniciar
 2. definir la velocidad del vehiculo (60 millas por hora)
 3. definir los tiempos
-4. realizar el calculo de las distancias multiplicando la velocidad por cada uno de los tiempos
+4. pedir al usuario los valores de tiempo en horas
+4. realizar el calculo de las distancias en millas multiplicando la velocidad por cada uno de los tiempos
 5. mostrar el resultado de cada distancia
 6. finalizar 
