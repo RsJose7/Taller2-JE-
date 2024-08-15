@@ -1,0 +1,38 @@
+Algoritmo del programa distancia_recorrida
+1. Iniciar
+2. Declarar variables de distancia, velocidad y tiempo
+3. Obtener valores de tiempo, pedirle al usuario
+4. Mostrar la distancia recorrida por el automovil en los diferentes tiempos
+5. Finalizar 
+
+Pseudocódigo
+Program distancia_recorrida
+Start
+//Programa para calcular distancia recorrida por un automovil en diferentes tiempos
+//Declarar variables
+Declare integer distancia1
+Declare integer distancia2
+Declare integer distancia3
+Declare integer velocidad
+Declare integer tiempo1
+Declare integer tiempo2
+Declare integer tiempo3
+
+//Obtener valores al usuario del primer tiempo
+Display "Ingrese la velocidad que viaja el automovil en millas por hora: "
+input velocidad = 60.00
+Display "Ingrese el primer tiempo en horas que recorre el automovil: "
+input tiempo1 = 5.00
+Display "Ingrese el segundo tiempo en horas que recorre el automovil: "
+input tiempo2 = 8.00
+Display "Ingrese el tercer tiempo en horas que recorre el automovil: "
+input tiempo3 = 12.00
+
+//Realizar el calculo de distancias con la formula empleada
+set distancia1 = velocidad * tiempo1
+set distancia2 = velocidad * tiempo2
+set distancia3 = velocidad * tiempo3
+
+//Mostrar las distancias en millas
+Display "La distancias recorridas por el automovil son: ". Primera distancia: ", distancia1, ". Segunda distancia: ", distancia2, ". Tercera distancia: ", distancia3
+End
